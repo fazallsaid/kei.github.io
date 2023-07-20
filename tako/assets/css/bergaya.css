@@ -1,0 +1,27 @@
+h2{
+	font-family: 'VT323', monospace;
+}
+
+p{
+	font-family: 'Orbit', sans-serif;
+}
+
+.tbl {
+      background: #ffdd24;
+      width: 8%;
+      display: block;
+      text-align: center;
+      right: 639px;
+      position: absolute;
+      bottom: 193px;
+      height: 31px;
+	  -webkit-clip-path: polygon(0 0, 88% 0, 100% 30%, 11% 30%);
+	  clip-path: polygon(0 0, 88% 0, 100% 100%, 11% 100%);
+	  text-decoration: none;
+	  color: #000;
+    }
+
+.tbl:hover{
+	background: #3f0000;
+	color: #fff;
+}
